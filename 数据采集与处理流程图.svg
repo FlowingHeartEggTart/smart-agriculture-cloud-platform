@@ -1,0 +1,85 @@
+<svg width="900" height="350" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="100%" height="100%" fill="#fdf2f8" rx="15" ry="15"/>
+    
+    <!-- 标题 -->
+    <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#be185d" text-anchor="middle">数据采集与处理流程</text>
+    
+    <!-- 主流程元素 -->
+    <g>
+        <!-- 传感器 -->
+        <rect x="80" y="120" width="100" height="50" rx="10" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+        <text x="130" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">传感器</text>
+        
+        <!-- 数据网关 -->
+        <rect x="220" y="120" width="100" height="50" rx="10" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+        <text x="270" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">数据网关</text>
+        
+        <!-- 数据接收服务 -->
+        <rect x="360" y="120" width="120" height="50" rx="10" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+        <text x="420" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">数据接收服务</text>
+        
+        <!-- 数据预处理 -->
+        <rect x="520" y="120" width="110" height="50" rx="10" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+        <text x="575" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">数据预处理</text>
+        
+        <!-- 数据存储 -->
+        <rect x="670" y="120" width="90" height="50" rx="10" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+        <text x="715" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">数据存储</text>
+        
+        <!-- 数据分析 -->
+        <rect x="800" y="120" width="90" height="50" rx="10" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+        <text x="845" y="150" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">数据分析</text>
+        
+        <!-- 实时预警 -->
+        <rect x="520" y="220" width="110" height="50" rx="10" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+        <text x="575" y="250" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">实时预警</text>
+        
+        <!-- 连接线 - 主流程 -->
+        <line x1="180" y1="145" x2="220" y2="145" stroke="#be185d" stroke-width="2.5"/>
+        <polygon points="215,140 225,145 215,150" fill="#be185d"/>
+        
+        <line x1="320" y1="145" x2="360" y2="145" stroke="#be185d" stroke-width="2.5"/>
+        <polygon points="355,140 365,145 355,150" fill="#be185d"/>
+        
+        <line x1="480" y1="145" x2="520" y2="145" stroke="#be185d" stroke-width="2.5"/>
+        <polygon points="515,140 525,145 515,150" fill="#be185d"/>
+        
+        <line x1="630" y1="145" x2="670" y2="145" stroke="#be185d" stroke-width="2.5"/>
+        <polygon points="665,140 675,145 665,150" fill="#be185d"/>
+        
+        <line x1="760" y1="145" x2="800" y2="145" stroke="#be185d" stroke-width="2.5"/>
+        <polygon points="795,140 805,145 795,150" fill="#be185d"/>
+        
+        <!-- 预处理到预警的连接 -->
+        <line x1="575" y1="170" x2="575" y2="220" stroke="#d97706" stroke-width="2.5" stroke-dasharray="5,3"/>
+        <polygon points="570,215 575,225 580,215" fill="#d97706"/>
+    </g>
+    
+    <!-- 装饰元素 -->
+    <circle cx="105" y="120" r="5" fill="#fbcfe8" opacity="0.7"/>
+    <circle cx="115" y="110" r="3" fill="#fbcfe8" opacity="0.7"/>
+    <circle cx="95" y="115" r="2" fill="#fbcfe8" opacity="0.7"/>
+    
+    <path d="M575,195 L585,190 L565,190 Z" fill="#d97706"/>
+    
+    <!-- 数据符号 -->
+    <rect x="130" y="90" width="5" height="15" fill="#f9a8d4" rx="1"/>
+    <rect x="140" y="85" width="5" height="20" fill="#f9a8d4" rx="1"/>
+    <rect x="150" y="92" width="5" height="13" fill="#f9a8d4" rx="1"/>
+    
+    <rect x="715" y="90" width="5" height="15" fill="#f9a8d4" rx="1"/>
+    <rect x="725" y="85" width="5" height="20" fill="#f9a8d4" rx="1"/>
+    <rect x="735" y="92" width="5" height="13" fill="#f9a8d4" rx="1"/>
+    
+    <!-- 警告图标 -->
+    <path d="M575,290 L560,315 H590 Z" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="575" y="310" font-family="Arial" font-size="12" fill="#f59e0b" text-anchor="middle" font-weight="bold">!</text>
+    
+    <!-- 图例 -->
+    <rect x="700" y="280" width="15" height="15" fill="#ec4899" stroke="#be185d" stroke-width="1"/>
+    <text x="725" y="293" font-family="Arial" font-size="12" fill="#334155">数据流程</text>
+    
+    <rect x="700" y="305" width="15" height="15" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+    <text x="725" y="318" font-family="Arial" font-size="12" fill="#334155">预警流程</text>
+</svg>

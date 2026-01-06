@@ -1,0 +1,111 @@
+<svg width="750" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="100%" height="100%" fill="#f8f9fa"/>
+    
+    <!-- 连接线 -->
+    <line x1="375" y1="145" x2="375" y2="175" stroke="#555" stroke-width="3" stroke-dasharray="5,5"/>
+    <line x1="375" y1="345" x2="375" y2="375" stroke="#555" stroke-width="3" stroke-dasharray="5,5"/>
+    <line x1="375" y1="545" x2="375" y2="575" stroke="#555" stroke-width="3" stroke-dasharray="5,5"/>
+    
+    <!-- 层框架 -->
+    <!-- 用户访问界面 -->
+    <rect x="100" y="50" width="550" height="95" rx="8" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
+    <text x="375" y="75" font-family="Arial" font-size="18" fill="#01579b" text-anchor="middle" font-weight="bold">用户访问界面</text>
+    
+    <!-- Web门户 -->
+    <rect x="140" y="85" width="200" height="45" rx="5" fill="#fff" stroke="#0288d1" stroke-width="1.5"/>
+    <text x="240" y="113" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Web门户</text>
+    
+    <!-- 移动应用 -->
+    <rect x="410" y="85" width="200" height="45" rx="5" fill="#fff" stroke="#0288d1" stroke-width="1.5"/>
+    <text x="510" y="113" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">移动应用</text>
+    
+    <!-- 应用服务层 -->
+    <rect x="100" y="175" width="550" height="170" rx="8" fill="#e8f5e9" stroke="#43a047" stroke-width="2"/>
+    <text x="375" y="200" font-family="Arial" font-size="18" fill="#1b5e20" text-anchor="middle" font-weight="bold">应用服务层</text>
+    
+    <!-- 环境监测与预警 -->
+    <rect x="140" y="215" width="200" height="35" rx="5" fill="#fff" stroke="#43a047" stroke-width="1.5"/>
+    <text x="240" y="238" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">环境监测与预警</text>
+    
+    <!-- 智能灌溉与施肥 -->
+    <rect x="410" y="215" width="200" height="35" rx="5" fill="#fff" stroke="#43a047" stroke-width="1.5"/>
+    <text x="510" y="238" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">智能灌溉与施肥</text>
+    
+    <!-- 农事活动管理 -->
+    <rect x="140" y="260" width="200" height="35" rx="5" fill="#fff" stroke="#43a047" stroke-width="1.5"/>
+    <text x="240" y="283" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">农事活动管理</text>
+    
+    <!-- 病虫害防治 -->
+    <rect x="410" y="260" width="200" height="35" rx="5" fill="#fff" stroke="#43a047" stroke-width="1.5"/>
+    <text x="510" y="283" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">病虫害防治</text>
+    
+    <!-- 产品质量追溯 -->
+    <rect x="140" y="305" width="200" height="35" rx="5" fill="#fff" stroke="#43a047" stroke-width="1.5"/>
+    <text x="240" y="328" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">产品质量追溯</text>
+    
+    <!-- 生产决策支持 -->
+    <rect x="410" y="305" width="200" height="35" rx="5" fill="#fff" stroke="#43a047" stroke-width="1.5"/>
+    <text x="510" y="328" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">生产决策支持</text>
+    
+    <!-- 数据处理层 -->
+    <rect x="100" y="375" width="550" height="170" rx="8" fill="#e8eaf6" stroke="#3949ab" stroke-width="2"/>
+    <text x="375" y="400" font-family="Arial" font-size="18" fill="#1a237e" text-anchor="middle" font-weight="bold">数据处理层</text>
+    
+    <!-- 数据存储与管理 -->
+    <rect x="140" y="415" width="200" height="35" rx="5" fill="#fff" stroke="#3949ab" stroke-width="1.5"/>
+    <text x="240" y="438" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">数据存储与管理</text>
+    
+    <!-- 数据分析与挖掘 -->
+    <rect x="410" y="415" width="200" height="35" rx="5" fill="#fff" stroke="#3949ab" stroke-width="1.5"/>
+    <text x="510" y="438" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">数据分析与挖掘</text>
+    
+    <!-- 设备控制逻辑 -->
+    <rect x="140" y="460" width="200" height="35" rx="5" fill="#fff" stroke="#3949ab" stroke-width="1.5"/>
+    <text x="240" y="483" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">设备控制逻辑</text>
+    
+    <!-- 预警规则引擎 -->
+    <rect x="410" y="460" width="200" height="35" rx="5" fill="#fff" stroke="#3949ab" stroke-width="1.5"/>
+    <text x="510" y="483" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">预警规则引擎</text>
+    
+    <!-- 数据采集层 -->
+    <rect x="100" y="575" width="550" height="170" rx="8" fill="#fce4ec" stroke="#d81b60" stroke-width="2"/>
+    <text x="375" y="600" font-family="Arial" font-size="18" fill="#880e4f" text-anchor="middle" font-weight="bold">数据采集层</text>
+    
+    <!-- 传感器接入 -->
+    <rect x="140" y="615" width="200" height="35" rx="5" fill="#fff" stroke="#d81b60" stroke-width="1.5"/>
+    <text x="240" y="638" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">传感器接入</text>
+    
+    <!-- 控制设备接入 -->
+    <rect x="410" y="615" width="200" height="35" rx="5" fill="#fff" stroke="#d81b60" stroke-width="1.5"/>
+    <text x="510" y="638" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">控制设备接入</text>
+    
+    <!-- 数据网关 -->
+    <rect x="140" y="660" width="200" height="35" rx="5" fill="#fff" stroke="#d81b60" stroke-width="1.5"/>
+    <text x="240" y="683" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">数据网关</text>
+    
+    <!-- 协议适配 -->
+    <rect x="410" y="660" width="200" height="35" rx="5" fill="#fff" stroke="#d81b60" stroke-width="1.5"/>
+    <text x="510" y="683" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">协议适配</text>
+    
+    <!-- 箭头装饰 -->
+    <polygon points="375,175 369,165 381,165" fill="#555"/>
+    <polygon points="375,375 369,365 381,365" fill="#555"/>
+    <polygon points="375,575 369,565 381,565" fill="#555"/>
+    
+    <!-- 标题 -->
+    <text x="375" y="30" font-family="Arial" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">智慧农业云平台系统架构</text>
+    
+    <!-- 图例 -->
+    <rect x="580" y="720" width="15" height="15" fill="#e1f5fe" stroke="#0288d1" stroke-width="1"/>
+    <text x="605" y="733" font-family="Arial" font-size="12" fill="#333">用户层</text>
+    
+    <rect x="580" y="740" width="15" height="15" fill="#e8f5e9" stroke="#43a047" stroke-width="1"/>
+    <text x="605" y="753" font-family="Arial" font-size="12" fill="#333">应用层</text>
+    
+    <rect x="580" y="760" width="15" height="15" fill="#e8eaf6" stroke="#3949ab" stroke-width="1"/>
+    <text x="605" y="773" font-family="Arial" font-size="12" fill="#333">处理层</text>
+    
+    <rect x="580" y="780" width="15" height="15" fill="#fce4ec" stroke="#d81b60" stroke-width="1"/>
+    <text x="605" y="793" font-family="Arial" font-size="12" fill="#333">采集层</text>
+</svg>
